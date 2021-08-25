@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="socials" id="socials">
+        <a href="#">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+    <a href="#" class="scroll__top" id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                My<span>Portfolio</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#interests" class="nav__link">Interests</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <i class="fas fa-times nav__close" id="nav-close"></i>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        </header>
+        
+        <main class="main">
+        <section class="home" id="home">
+            <div class="home__container">
+                <h1 class="home__title">My name is Thinh,</h1>
+                <p class="home__subtitle">And I'm a <span class="typing"></span> </p>
+                <div class="home__btns">
+                    <a href="#" class="btn"><i class="fas fa-phone"></i> Hire me</a>
+                    <a href="#" class="btn btn-tran"> My Projects</a>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <i class="fas fa-user icon__title"></i>
+            <span class="text__title">introduction</span>
+            <div class="about__container container grid">
+                <img src="./my-porfolio/images/me.png" alt="" class="about__img">
+                <div class="about__info">
+                    <h2 class="about__title">
+                        Thanks for visiting my profile.
+                    </h2>
+                    <p class="about__text">
+                        I'm currently a third year student majoring in Computer Science 
+                        at San Jose State University with a GPA of 3.9+, and dream to 
+                        become a Java full stack developer. Beside that, I used to play 
+                        Piano at home, it makes me feel less frustrated.
+                    </p>
+                    <div class="about__experience">
+                        <div>
+                            <h2 class="experience__year">02+</h2>
+                            <span class="experience__name">Years <br> experience</span>
+                        </div>
+                        <div>
+                            <h2 class="experience__year">50+</h2>
+                            <span class="experience__name">Completed <br> projects</span>
+                        </div>
+                        <div>
+                            <h2 class="experience__year">01+</h2>
+                            <span class="experience__name">Companies <br> worked</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">My Resume <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="services section" id="services">
+            <i class="fas fa-concierge-bell icon__title"></i>
+            <span class="text__title">What i provide</span>
+            <div class="services__container container grid">
+                <div class="services__content">
+                    <div>
+                        <i class="fas fa-paint-brush services__icon"></i>
+                        <h3 class="services__title">Web Design</h3>
+                        <p class="services__description">
+                            A web designer is responsible for creating the design and layout 
+                            of a website or web pages.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div>
+                        <i class="fas fa-chalkboard-teacher services__icon"></i>
+                        <h3 class="services__title">Tutoring</h3>
+                        <p class="services__description">
+                            A tutor works with students and enables them to perform 
+                            at a higher level academically.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__content">
+                    <div>
+                        <i class="fas fa-book services__icon"></i>
+                        <h3 class="services__title">Academic Advisor</h3>
+                        <p class="services__description">
+                            An adviser's role is that of a mentor or guide and differs 
+                            categorically from that of a task-specific consultant.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills section" id="skills">
+            <i class="fas fa-laptop-code icon__title"></i>
+            <span class="text__title">Prof skills</span>
+            <div class="skills__container container grid">
+                <div class="skills__data">
+                    <div class="skills__info">
+                        <div class="skills__box">
+                            <i class="fab fa-html5 skills__icon"></i>
+                            <h3 class="skills__name">HTML5</h3>
+                        </div>
+                        <span class="skills__percentage">85%</span>
+                        <div class="skills__bar">
+                            <div class="skills__html"></div>
+                        </div>
+                    </div>
+                    <div class="skills__info">
+                        <div class="skills__box">
+                            <i class="fab fa-css3-alt skills__icon"></i>
+                            <h3 class="skills__name">CSS3</h3>
+                        </div>
+                        <span class="skills__percentage">80%</span>
+                        <div class="skills__bar">
+                            <div class="skills__css"></div>
+                        </div>
+                    </div>
+                    <div class="skills__info">
+                        <div class="skills__box">
+                            <i class="fab fa-java skills__icon"></i>
+                            <h3 class="skills__name">Java</h3>
+                        </div>
+                        <span class="skills__percentage">75%</span>
+                        <div class="skills__bar">
+                            <div class="skills__java"></div>
+                        </div>
+                    </div>
+                    <div class="skills__info">
+                        <div class="skills__box">
+                            <i class="fab fa-js-square skills__icon"></i>
+                            <h3 class="skills__name">Javascript</h3>
+                        </div>
+                        <span class="skills__percentage">90%</span>
+                        <div class="skills__bar">
+                            <div class="skills__js"></div>
+                        </div>
+                    </div>
+                    <div class="skills__info">
+                        <div class="skills__box">
+                            <i class="fab fa-node-js skills__icon"></i>
+                            <h3 class="skills__name">NodeJS</h3>
+                        </div>
+                        <span class="skills__percentage">85%</span>
+                        <div class="skills__bar">
+                            <div class="skills__node"></div>
+                        </div>
+                    </div>
+                    <div class="skills__info">
+                        <div class="skills__box">
+                            <i class="fab fa-react skills__icon"></i>
+                            <h3 class="skills__name">React</h3>
+                        </div>
+                        <span class="skills__percentage">80%</span>
+                        <div class="skills__bar">
+                            <div class="skills__react"></div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./my-porfolio/images/work4.jpg" alt="" class="skills__img">
+            </div>
+        </section>
+        <section class="interested section" id="interests">
+            <i class="fas fa-heart icon__title"></i>
+            <span class="text__title">interested in</span>
+
+            <div class="owl-carousel interested__container container">
+                <div class="services__content interested__box">
+                    <div>
+                        <img src="./my-porfolio/images/web-design.jpg" alt="" class="interested__img">
+                        <h3 class="services__title">Web Design</h3>
+                        <p class="services__description">
+                            Web design is the process of planning, conceptualizing, and 
+                            arranging content online. Making people feel websites as an 
+                            artwork is what I'm very interested in
+                        </p>
+                    </div>
+                </div>
+                <div class="services__content interested__box">
+                    <div>
+                        <img src="./my-porfolio/images/coding.png" alt="" class="interested__img">
+                        <h3 class="services__title">Coding</h3>
+                        <p class="services__description">
+                            I spend 6-10 hours for coding, and learning new tech every day. 
+                            Code tells a computer what actions to take, and writing code 
+                            is like creating a set of instructions.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__content interested__box">
+                    <div>
+                        <img src="./my-porfolio/images//piano.jpg" alt="" class="interested__img">
+                        <h3 class="services__title">Piano</h3>
+                        <p class="services__description">
+                            Piano is such a great instrument that makes you really 
+                            feel at ease. Adults who learn to play piano experience 
+                            a decrease in depression, fatigue, and anxiety, 
+                            i like the piano
+                        </p>
+                    </div>
+                </div>
+                <div class="services__content interested__box">
+                    <div>
+                        <img src="./my-porfolio/images/sport.jpg" alt="" class="interested__img">
+                        <h3 class="services__title">Sport</h3>
+                        <p class="services__description">
+                            As a programmer, keeping active through physical activity is a must. 
+                            Studies have shown that 20 to 30 minutes of exercise each day 
+                            can make people feel calmer.
+                        </p>
+                    </div>
+                </div>
+              </div>
+        </section>
+        <section class="contact section" id="contact">
+            <i class="fas fa-address-card icon__title"></i>
+            <span class="text__title">get in touch</span>
+            <div class="contact__container container grid">
+                <div class="contact__text">
+                    <h3 class="contact__title">Get in Touch</h3>
+                    <p class="contact__description">
+                        If you would like to contact me. Please, feel free to send me a message 
+                        via my email which is provided below, you can also message me via social 
+                        media by clicking icons located on the top right corner. It's my honor 
+                        to have a conversation with you.
+                    </p>
+                    <div>
+                        <div class="contact__info">
+                            <i class="fas fa-user contact__icon"></i>
+                            <div>
+                                <h4 class="contact__name">Name</h4>
+                                <p class="contact__name-detail">Van Thinh</p>
+                            </div>
+                        </div>
+                        <div class="contact__info">
+                            <i class="fas fa-map-marker-alt contact__icon"></i>
+                            <div>
+                                <h4 class="contact__name">Address</h4>
+                                <p class="contact__name-detail">Dak Lak, Viet Nam</p>
+                            </div>
+                        </div>
+                        <div class="contact__info">
+                            <i class="fas fa-envelope contact__icon"></i>
+                            <div>
+                                <h4 class="contact__name">Email</h4>
+                                <p class="contact__name-detail">phamvanthinh2001x@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact__form">
+                    <h3 class="contact__title">Message me</h3>
+                    <div class="contact__box">
+                        <i class="fas fa-signature contact__input-icon"></i>
+                        <input type="text" placeholder="Name" class="contact__input">
+                    </div>
+                    <div class="contact__box">
+                        <i class="fas fa-envelope contact__input-icon"></i>
+                        <input type="text" placeholder="Email" class="contact__input">
+                    </div>
+                    <div class="contact__box">
+                        <i class="fab fa-stripe-s contact__input-icon"></i>
+                        <input type="text" placeholder="Subject" class="contact__input">
+                    </div>
+                    <div class="contact__box">
+                        <i class="fas fa-comments contact__input-icon"></i>
+                        <textarea placeholder="Message..." class="contact__input"></textarea>
+                    </div>
+                    <a href="#" class="btn contact__btn">Send message <i class="fas fa-paper-plane"></i></a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__box">
+                <h3 class="footer__title">Services</h3>
+                <a href="#" class="footer__link">Web Design</a>
+                <a href="#" class="footer__link">Advising</a>
+                <a href="#" class="footer__link">Tutoring</a>
+            </div>
+            <div class="footer__box">
+                <h3 class="footer__title">About</h3>
+                <a href="#" class="footer__link">Who am i</a>
+                <a href="#" class="footer__link">Contact</a>
+                <a href="#" class="footer__link">Skills</a>
+            </div>
+            <div class="footer__box">
+                <h3 class="footer__title">Summary</h3>
+                <p class="footer__text">
+                    This is one of my personal sites using pure Html 
+                    and Css with the aim of impressing recruiters.
+                </p>
+            </div>
+            <div class="footer__box">
+                <a href="#" class="footer__social">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="footer__social">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="footer__social">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="footer__social">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="credit">
+            Created By <span>Pham Van Thinh</span> | &copy; 2021 All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
